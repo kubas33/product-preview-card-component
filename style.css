@@ -140,7 +140,6 @@ button:hover{
     }
 
     #img-preview {
-        content: url(./images/image-product-desktop.jpg);
         width: 100%;
         border-bottom-left-radius: inherit;
         height: 100%;

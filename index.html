@@ -19,7 +19,10 @@
 <body>
 
   <main>
-    <div id="img-container"><img id="img-preview" src="./images/image-product-mobile.jpg" alt="Preview"></div>
+    <picture id="img-container">
+      <source media="(min-width: 480px)" srcset="./images/image-product-desktop.jpg">
+      <img id="img-preview" src="./images/image-product-mobile.jpg" alt="Preview">
+    </picture>
     <div id="main-descr-container">
       <section class="main-descr">
         <p id="type">PERFUME</p>
